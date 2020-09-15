@@ -1,9 +1,8 @@
 Курс "Конструирование программного обеспечения"
 ======
 
-Подробнее о курсе: https://www.hse.ru/edu/courses/339554661
-
-## Семинар 01. Знакомство с разработкой программного обеспечения на Java-платформе
+## Семинар 01.
+Знакомство с разработкой программного обеспечения на Java-платформе
 
 ### Версия Java
 Проверить текущую версию Java можно вводом в командную строку
@@ -13,12 +12,14 @@ java --version
 ### Установка jdk 11
 
 Нужно установить один из вариантов:
-* [OpenJDK 11.0.2](https://jdk.java.net/archive/)
+
+* [Java SE Development Kit 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (Простой вариант, но требудет регистрацию на www.oracle.com).
+
+* [OpenJDK 11.0.2](https://jdk.java.net/archive/) (Сложный вариант, требудет настройку переменных окружения)
   Необходимо задать **переменную окружения** JAVA_HOME и добавить "%JAVA_HOME%\bin" в переменную PATH
   https://www.java.com/ru/download/help/path.xml
   https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
-
-* [Java SE Development Kit 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+  Проверить установленные **переменные окружения** можно с помощю команд: ```which java``` (показывает путь) и ```echo %JAVA_HOME%```
 
 После установки проверяем версию Java.
 
